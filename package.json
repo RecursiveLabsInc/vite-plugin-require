@@ -25,21 +25,24 @@
 		"@babel/traverse": "^7.24.5",
 		"@babel/types": "^7.24.5",
 		"@vue/compiler-sfc": "^3.4.27",
-		"@types/node": "^20.0.0",
 		"vue-loader": "^17.4.2",
-		"webpack": "^4.46.0 || ^5.0.0",
-		"@types/babel__generator": "^7.6.8",
-		"@types/babel__traverse": "^7.20.6",
-		"typescript": "^5.7.3"
+		"webpack": "^4.46.0 || ^5.0.0"
 	},
 	"files": [
 		"src",
-		"tsconfig.json"
+		"tsconfig.json",
+		"dist/index.js"
 	],
 	"keywords": [
 		"vite",
 		"require",
 		"vite-plugin",
 		"vite-plugin-require"
-	]
+	],
+	"devDependencies": {
+		"@types/node":"^22.12.0",
+		"@types/babel__generator": "^7.6.8",
+		"@types/babel__traverse": "^7.20.6",
+		"typescript": "^5.7.3"
+	}
 }
