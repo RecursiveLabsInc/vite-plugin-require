@@ -29,7 +29,8 @@
 		"webpack": "^4.46.0 || ^5.0.0"
 	},
 	"files": [
-		"src"
+		"src",
+		"tsconfig.json"
 	],
 	"keywords": [
 		"vite",
